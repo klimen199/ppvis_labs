@@ -23,15 +23,24 @@ public class FourthTask {
             public void actionPerformed(ActionEvent e) {
                 if (!textField4.getText().equals("")) {
                     if (textField4.getText().equals(check1.getText())) {
-                        check1.setSelected(true);
+                        if (check1.isSelected())
+                            check1.setSelected(false);
+                        else
+                            check1.setSelected(true);
                         textField4.setText("");
                     }
                     else if (textField4.getText().equals(check2.getText())) {
-                        check2.setSelected(true);
+                        if (check2.isSelected())
+                            check2.setSelected(false);
+                        else
+                            check2.setSelected(true);
                         textField4.setText("");
                     }
                     else if (textField4.getText().equals(check3.getText())) {
-                        check3.setSelected(true);
+                        if (check3.isSelected())
+                            check3.setSelected(false);
+                        else
+                            check3.setSelected(true);
                         textField4.setText("");
                     }
                     else {

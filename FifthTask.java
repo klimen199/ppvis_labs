@@ -18,7 +18,7 @@ public class FifthTask {
         textField5.setHorizontalAlignment(JTextField.CENTER);
         JButton inTable = new JButton("Put it");
         JButton inSecondCol = new JButton("1 -> 2");
-        JButton inFirstCol = new JButton("2 -> 1");
+        JButton inFirstCol = new JButton("1 <- 2");
 
         DefaultTableModel model = new DefaultTableModel(0, 2);
         JTable table5 = new JTable(model);
