@@ -90,7 +90,7 @@ public class AdditionTask {
                         temp = temp2;
                         k++;
 
-                        if (k >= table.getRowCount() - 1) {
+                        if (k >= table.getColumnCount() - 1) {
                             k = 0;
                             table.setValueAt(temp3, m, k);
                             m++;
@@ -135,16 +135,12 @@ public class AdditionTask {
                                 i = -1;
                             }
                         }
-
-
                     }
                 }
-
-
             }
         };
 
-        Timer timer = new Timer(350, doMooving);
+        Timer timer = new Timer(250, doMooving);
 
 
         actionInTable.addActionListener(new ActionListener() {
