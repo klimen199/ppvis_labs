@@ -140,7 +140,7 @@ public class AdditionTask {
             }
         };
 
-        Timer timer = new Timer(250, doMooving);
+        Timer timer = new Timer(100, doMooving);
 
 
         actionInTable.addActionListener(new ActionListener() {

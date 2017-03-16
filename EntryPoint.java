@@ -22,6 +22,7 @@ public class EntryPoint {
         FourthTask page4 = new FourthTask();
         FifthTask page5 = new FifthTask();
         AdditionTask page6 = new AdditionTask();
+        //AdditionalTask2 page6 = new AdditionalTask2();
 
         Box mainBox = Box.createHorizontalBox();
         mainBox.add(page1.createPanelWithComboBox());
